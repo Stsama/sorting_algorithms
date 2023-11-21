@@ -13,11 +13,11 @@ void swap_items(int *array, size_t l, size_t r)
 	int tmp;
 
 	if (array != NULL)
-		{
-			tmp = array[l];
-			array[l] = array[r];
-			array[r] = tmp;
-		}
+	{
+		tmp = array[l];
+		array[l] = array[r];
+		array[r] = tmp;
+	}
 }
 
 /**
